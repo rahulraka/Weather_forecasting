@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;400;600;700;800&family=Poppins:ital,wght@0,300;0,400;0,500;0,700;0,800;0,900;1,400;1,700;1,800&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://site-assets.fontawesome.com/releases/v6.0.0/css/all.css"
+    />
+    <link rel="stylesheet" href="style/index.css">
+    <title>Raka-will-tell-Weather</title>
+  </head>
+  <body>
+      <div style="margin: auto; width: 700px;"><p id="top">Get The Latest Weather Info <i class="fa-solid fa-cloud-bolt-sun fa-beat"></i></p></div>
+      <div id="but"><input type="text" id="city" placeholder="Enter City..." />
+    <button id="checkWeather" onclick="checkWeather()">Check Weather</button>
+</div>
+
+<div id="forecast">
+  <!-- <div id="day1"></div>
+  <div id="day2"></div>
+  <div id="day3"></div>
+  <div id="day4"></div>
+  <div id="day5"></div>
+  <div id="day6"></div>
+  <div id="day7"></div> -->
+</div>
+
+
+    <div id="container">
+      <div id="weather"></div>
+      <div id="map">
+        </iframe>
+      </div>
+    </div>
+  </body>
+</html>
+<script src="./script/index.js"></script>

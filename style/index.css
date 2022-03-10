@@ -1,0 +1,129 @@
+body {
+  font-family: "Nunito Sans", sans-serif;
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #89CFF0;
+  /* text-align: center; */
+}
+#top{
+    text-align: center;
+    font-size:45px;
+    color:yellow;
+    border-bottom: 4px solid yellow;
+   
+}
+#but{
+    text-align: center;
+    margin: auto;
+    margin-top: 50px;
+}
+input{
+    border-radius: 9px;
+    margin: 30px;
+    height: 30px;
+    width: 250px;
+    padding:10px;
+    font-size: 25px;
+    border:none;
+    color:#89CFF0;
+    border-bottom: 1px solid black;
+    box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px, rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
+}
+button:hover{
+    background-color:rgb(243, 105, 105);
+    color:white;
+}
+/* button::onclick{
+    location:translateY(2px;)
+} */
+button{
+    color:#89CFF0;
+
+    border-color: aquamarine;
+    border-radius: 9px;
+    margin: 30px;
+    height: 30px;
+    margin-bottom: 50px;
+   
+}
+input::placeholder{
+    color:#89CFF0;
+}
+#weather{
+    padding: 40px;
+    font-size:30px;
+    color :rgb(236, 236, 129);
+}
+#sync{
+    font-weight: 400;
+    text-align: right;
+    margin-top:80px;
+    color :black;
+    font-size:15px;
+}
+#container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 700px;
+  gap: 40px;
+  margin: 100px;
+  justify-content: space-between;
+}
+#map {
+    height: 600px;
+    width: 600px;
+}
+iframe {
+  height: 100%;
+  width: 100%;
+}
+/* h3{
+    
+    
+} */
+#city {
+    text-align: center;
+    align-self: center;
+}
+#forecast {
+    width:90%;
+    /* border: 1px solid white; */
+    display: grid;
+    grid-template-columns: repeat(8,1fr);
+    /* background-color:rgb(56, 54, 54); */
+    margin: auto;
+    height:260px;
+    border-radius: 12px;
+}
+#forecast div {
+    border: 0.5px solid white;
+    background-color:rgb(29, 26, 26);
+
+    border-radius: 5px;
+}
+#forecast{
+    text-align: center;
+}
+.min{
+    margin-top:0;
+    color: white;
+    font-size:25px;
+    margin-bottom:10px;
+}
+.max{
+    margin-top:0;
+    color: rgb(202, 199, 199);
+}
+.image{
+    height: 70px;
+    width: 70px;
+    margin-bottom: 0;
+    color:white; 
+}
+.day{
+    color:white; 
+    
+}
+
+
