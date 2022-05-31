@@ -6,3 +6,6 @@ User can search for any City according to their choice.
 
 ## Used Resources
 I have used HTML, CSS and JS to build this and with using Open-source-weather-api for assistance.
+## Snippet
+![image](https://user-images.githubusercontent.com/65751330/171204148-0d28eb73-0e13-4c09-96a5-29976e0baaf5.png)
+
